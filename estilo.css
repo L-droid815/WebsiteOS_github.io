@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    max-width: 600px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    padding: 20px 20px 20px 20px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+}
+
+/*Esta es la parte del logo*/
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo:hover{
+    color: #176ab8;
+    transition: color 0.3s;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.navbar ul li{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.inicio{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sobre-mi{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contacto{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.inicio:hover{
+    color: #176ab8;
+    transition: color 0.3s;
+}
+
+.sobre-mi:hover{
+    color: #176ab8;
+    transition: color 0.3s;
+}
+
+.contacto:hover{
+    color: #176ab8;
+    transition: color 0.3s;
+}
+
+i{
+    color: white;
+}
+
+.container-main{
+    background-color: #081b29;
+    color: #ffffff;
+}
+
+h1{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+p, strong{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.nota-1{
+    font-size: 18px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.windows{
+    gap: 10px;
+}
+
+.linux{
+    gap: 20px;
+}
+
+.botones, a{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+button a{
+    display: inline-block;
+    padding: 13px 35px;
+    background: linear-gradient(90deg, rgba(78, 159, 215, 1) 0%, rgba(74, 42, 193, 1) 100%);
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+button a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+button:hover{
+    transition: 0.5s;
+}
+
+.imagen-container{
+    display: flex;
+    justify-content: center;
+}
+
+/*Esta es la parte del footer*/
+
+.color-de-fondo{
+    background-color: #176ab8;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
