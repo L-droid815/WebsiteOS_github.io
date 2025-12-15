@@ -19,16 +19,15 @@ body{
 .container{
     padding: 20px 20px 20px 20px;
     background-color: #1a1a1a;
-    display: flex;
-    align-items: center;
 }
 
-/*Esta es la parte del logo*/
+/* Esta es la parte del logo */
 
 .logo{
     font-size: 24px;
     font-weight: bold;
     color: white;
+
 }
 
 .logo:hover{
@@ -36,9 +35,17 @@ body{
     transition: color 0.3s;
 }
 
+/* NUEVO: Estilo para el grupo de elementos de la izquierda (ícono y logo) */
+.menu-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .menu-container{
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Centra verticalmente los elementos */
 }
 
 .navbar ul{
@@ -46,7 +53,7 @@ body{
     gap: 20px;
     flex-direction: row;
     justify-content: center;
-    align-self: flex-end;
+    align-items: center; /* Centra verticalmente los ítems del menú */
 }
 
 .navbar ul li{
@@ -61,32 +68,13 @@ body{
     transition: color 0.3s;
 }
 
-.inicio{
+.inicio, .sobre-mi, .contacto{
     color: #ffffff;
     cursor: pointer;
+    gap: 10px;
 }
 
-.sobre-mi{
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.contacto{
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.inicio:hover{
-    color: #176ab8;
-    transition: color 0.3s;
-}
-
-.sobre-mi:hover{
-    color: #176ab8;
-    transition: color 0.3s;
-}
-
-.contacto:hover{
+.inicio:hover, .sobre-mi:hover, .contacto:hover{
     color: #176ab8;
     transition: color 0.3s;
 }
