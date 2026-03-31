@@ -102,8 +102,15 @@ p, strong{
     justify-content: center;
 }
 
-.nota-1{
+.nota-1 {
     font-size: 18px;
+    text-align: center; /* Centra el texto de forma clásica */
+    padding: 10px 20px;
+    display: block; /* Asegura que ocupe el ancho disponible */
+}
+
+.nota-1 strong{
+    display: inline;
 }
 
 h2{
@@ -117,6 +124,10 @@ h2{
 
 .linux{
     gap: 20px;
+}
+
+.link-de-linux{
+    color: #176ab8;
 }
 
 .botones, a{
@@ -163,4 +174,3 @@ button:hover{
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
-
