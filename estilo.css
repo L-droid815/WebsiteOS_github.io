@@ -12,6 +12,10 @@ img{
     max-width: 600px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Inter', sans-serif;
 }
